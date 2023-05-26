@@ -1,13 +1,37 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Chad Gym</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-  <app-root></app-root>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script src="index.js"></script>
+    <div class="grid-container">
+      <h1 id="title">Weather</h1>
+      <h2 id="city" class="city"></h2>
+      <span id="searchbar" class="searchbar">
+        city: <input type="text" id="location" />
+        <input type="button" onclick="fetchWeather()" value="search" />
+      </span>
+      <p></p>
+      <h3 id="temp"></h3>
+      <p></p>
+      <p></p>
+      <h3 id="minmax"></h3>
+      <p></p>
+      <p></p>
+      <h3 id="clouds"></h3>
+      <p></p>
+      <p></p>
+      <h3 id="humidity"></h3>
+      <p></p>
+      <p></p>
+      <h3 id="wind"></h3>
+      <p></p>
+      <div id="weather-results"></div>
+    </div>
+  </body>
 </html>

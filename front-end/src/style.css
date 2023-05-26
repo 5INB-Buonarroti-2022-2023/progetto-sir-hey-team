@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.grid-container {
+  padding: 2%;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  row-gap: 20%;
+}
+.searchbar {
+  text-align: right;
+}
+.city {
+  text-align: center;
+}
+body {
+  background-color: #add8e6;
+}
+h3 {
+  text-align: center;
+}
